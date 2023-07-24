@@ -22,4 +22,10 @@ class HelloController
         return new Response('Olá, Dioguinho!');
     }
 
+    #[Route('/cachorros')]
+    public function cachorros(): Response
+    {
+        return new Response('Olá, Cachorros!');
+    }
+
 }
