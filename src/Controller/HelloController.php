@@ -28,4 +28,21 @@ class HelloController
         return new Response('Olá, Cachorros!');
     }
 
+    #[Route('/cobras')]
+    public function cobras(): Response
+    {
+        return new Response('Olá, cobras!');
+    }
+
+    #[Route('/wabzinho')]
+    public function wabzinho(): Response
+    {
+        return new Response('Olá, wabers!');
+    }
+
+    #[Route('/felinos')]
+    public function felinos(): Response
+    {
+        return new Response('Olá, felinos!');
+    }
 }
